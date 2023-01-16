@@ -1,45 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ტელერადიოცენტრი</title>
+    <link rel="stylesheet" href="style.css" />
     <script src="https://kit.fontawesome.com/015ae5e77e.js" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
-</head>
-<body>
+  </head>
+  <body>
+    <div class="part1">
+      <header>
+        <div class="TRC-logo">
+          <img class="logo" src="images/7618e06b2b632503fdd80c7744d44158.png" alt="" />
+        </div>
+        <div class="navbar-menu">
+          <nav class="navbar">
+            <ul class="nav-line-1">
+              <li class="li1"><i class="fa-solid fa-phone"></i> (032)2 506 333</li>
+              <li class="li1">GEO <i class="fa-solid fa-angle-down"></i></li>
+              <li class="li11"><i class="fa-solid fa-magnifying-glass"></i></li>
+            </ul>
 
-    <div class="header">
-
-  <img class="tv-logo" src="img/7618e06b2b632503fdd80c7744d44158.png" alt="">
-  <div class="search-phone">
-<div class="phone"> <i class="fa-solid fa-phone"></i> (032)2 506 333 </div>
-<div class="language"> GEO <i class="fa-solid fa-angle-down"></i></div>
-<div class="search"><i class="fa-solid fa-magnifying-glass"></i></div>
-
-
-
-</div>
-
-<nav class="navbar">
-    <ul class="ulbar">
-<a class="a1" href="#"> <li>მთავარი</li></a>
-<a class="a1" href="#"> <li>ჩვენს შესახებ</li></a>
-<a class="a1"  href="#"> <li>მომსახურება</li></a>
-<a class="a1" href="#"> <li>სამაუწყებლო ქსელი</li></a>
-<a class="a1" href="#"> <li>მედიაცენტრი</li></a>
-<a class="a1" href="#"> <li>კონტაქტი</li></a>
-
-
-    </ul>
-
-</nav>
-
-
+            <ul class="nav-line-2">
+              <li class="li2">
+                <a class="a2" href="#"> <strong>მთავარი</strong> </a>
+              </li>
+              <li class="li2">
+                <a class="a2" href="#"> <strong>ჩვენს შესახებ</strong> </a>
+              </li>
+              <li class="li2">
+                <a class="a2" href="#"> <strong>მომსახურება</strong> </a>
+              </li>
+              <li class="li2">
+                <a class="a2" href="#"> <strong>სამაუწყებლო ქსელი</strong> </a>
+              </li>
+              <li class="li2">
+                <a class="a2" href="#"> <strong>მედიაცენტრი</strong> </a>
+              </li>
+              <li class="li2">
+                <a class="a2" href="#"> <strong>კონტაქტი</strong> </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
     </div>
-    
-    
-</body>
+
+    <div class="slidershow">
+      <div class="slides">
+        <input type="radio" name="r" id="r1" checked />
+        <input type="radio" name="r" id="r2" />
+        <input type="radio" name="r" id="r3" />
+        <input type="radio" name="r" id="r4" />
+
+        <div class="slide first">
+          <div class="title">
+            <h1>ციფრული მაუწყებლობა</h1>
+            <h3>ჩვენი დღევანდელი დღე</h3>
+          </div>
+          <!-- <img src="images/215f0a5ede4da1e88f4960650abdd643.png" alt=""  /> -->
+        </div>
+        <div class="slide seconde">
+          <div class="title">
+            <h1>ციფრული მაუწყებლობა</h1>
+            <h3>ჩვენი დღევანდელი დღე</h3>
+          </div>
+          <!-- <img src="images/d772d60f0a8b24c388fcd47b251593c0.png" alt="" /> -->
+        </div>
+        <div class="slide third">
+          <!-- <img src="images/50624188f3e4fcfda0635fb54ce8c304.png" alt="" /> -->
+        </div>
+        <div class="slide fourth">
+          <div class="title">
+            <h1>ციფრული მაუწყებლობა</h1>
+            <h3>ჩვენი დღევანდელი დღე</h3>
+          </div>
+          <!-- <img src="images/349a908a77cff9c93536a9330607934b.jpg" alt="" /> -->
+        </div>
+
+        <div class="navigation-auto">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+          <div class="auto-btn4"></div>
+        </div>
+      </div>
+
+      <div class="navigation-manual">
+        <label for="r1" class="manual-btn"></label>
+        <label for="r2" class="manual-btn"></label>
+        <label for="r3" class="manual-btn"></label>
+        <label for="r4" class="manual-btn"></label>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
 </html>
